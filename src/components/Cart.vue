@@ -24,10 +24,9 @@
               />
               <button
                 @click="$emit('removeFromCart', item.id)"
-                class="btn btn-outline-danger btn-sm rounded-circle p-0"
-                style="width: 28px; height: 28px"
+                class="btn btn-outline-danger btn-sm rounded-pill"
               >
-                <i class="bi bi-x"></i>
+                移除
               </button>
             </div>
           </li>
