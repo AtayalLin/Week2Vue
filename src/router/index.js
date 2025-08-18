@@ -22,6 +22,10 @@ const router = createRouter({
       path: '/todo',
       component: () => import('../views/TodoView.vue'),
     },
+    {
+      path: '/week3',
+      component: () => import('../views/Shoppage.vue'),
+    },
   ],
 })
 
